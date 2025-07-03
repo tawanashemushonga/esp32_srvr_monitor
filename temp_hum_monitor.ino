@@ -14,13 +14,13 @@
 
 // --- WiFi Credentials ---
 // Replace with your network SSID (name) and password
-const char* SECRET_SSID = "MedWireless";
-const char* SECRET_PASS = "ttt048680#";
+const char* SECRET_SSID = "wifi-name";
+const char* SECRET_PASS = "wifi-password";
 
 // --- ThingSpeak Configuration ---
 // Replace with your Channel ID and Write API Key
-unsigned long myChannelNumber = 3002894; // Your Channel ID
-const char * myWriteAPIKey = "OIFZ6TR8PXIALIPM"; // Your Write API Key
+unsigned long myChannelNumber = 123456; // Your Channel ID
+const char * myWriteAPIKey = "OPTDHXJSHS12XJ"; // Your Write API Key
 
 // --- DHT Sensor Configuration ---
 #define DHTPIN 4       // The GPIO pin connected to the DHT11 data pin
